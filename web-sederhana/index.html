@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio-Raihan</title>
+  <link rel="stylesheet" href="newstyle.css">
+</head>
+<body>
+  <div class="fContainer">
+    <nav class="navbar">
+      <a href="#home"><div class="logo">
+        <div class="firstname"><h1>raihan.</h1></div>
+        <div class="lastname"><h1>id</h1></div>
+      </div></a>
+        <ul class="nav">
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about me</a></li> 
+          <li><a href="#portfolio">portfolio</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+<div class="home-div">
+  <section class="home" id="home">
+    <div class="modal-card" id="modal">
+      <div><img src="https://i.postimg.cc/YCX7MrvQ/image.png" alt="Spongebob"></div>
+      <a href="#home"><div class="btn-close"><p>close</p><p>🗙</p></div></a>
+    </div>
+    <div>
+      <div class="home-container"><div class="card"><label><a href="#modal"><img src="https://i.postimg.cc/YCX7MrvQ/image.png" alt="Spongebob"></label></a></div>
+      <div class="home-desc">
+        <div class="nama"><h1>Raihan Abdurrahim Al Ayyubi</h1></div>
+        <div class="as">Freelancer || Fullstack Developer</div></div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#81C6E8" fill-opacity="1" d="M0,320L0,32L72,32L72,224L144,224L144,224L216,224L216,288L288,288L288,64L360,64L360,288L432,288L432,64L504,64L504,224L576,224L576,224L648,224L648,32L720,32L720,192L792,192L792,128L864,128L864,96L936,96L936,96L1008,96L1008,64L1080,64L1080,256L1152,256L1152,128L1224,128L1224,96L1296,96L1296,128L1368,128L1368,192L1440,192L1440,0L1368,0L1368,0L1296,0L1296,0L1224,0L1224,0L1152,0L1152,0L1080,0L1080,0L1008,0L1008,0L936,0L936,0L864,0L864,0L792,0L792,0L720,0L720,0L648,0L648,0L576,0L576,0L504,0L504,0L432,0L432,0L360,0L360,0L288,0L288,0L216,0L216,0L144,0L144,0L72,0L72,0L0,0L0,0Z"></path></svg>
+    </div>
+  </section>
+</div>
+<div>
+  <section class="about-section" id="about">
+    <div class="about">
+      <div class="about-container">
+        <div>
+          <div class="aboutme">
+            <h1>About me</h1>
+          </div>
+          <div class="text-about"><div class="about-text1"><p>Raihan Abdurrahim adalah seorang Mahasiswa, dengan pengalaman membuat beberapa desain grafis dan foto – foto yang keren. Latar belakangnya dalam strategi fotografer, desain visual, dan manajemen akun menginformasikan pendekatannya yang penuh perhatian tetapi kompetitif.</p></div>
+          <div class="about-text2"><p>Dia didorong oleh hasratnya untuk memahami nuansa desain dan programer. Dia menganggap dirinya sebagai 'siswa selamanya', bersemangat untuk membangun fondasi akademisnya di bidang Sistem Informasi dan tetap selaras dengan strategi pemasaran digital terbaru.</p></div></div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#81C6E8" fill-opacity="1" d="M0,128L26.7,112C53.3,96,107,64,160,58.7C213.3,53,267,75,320,112C373.3,149,427,203,480,192C533.3,181,587,107,640,69.3C693.3,32,747,32,800,42.7C853.3,53,907,75,960,80C1013.3,85,1067,75,1120,85.3C1173.3,96,1227,128,1280,128C1333.3,128,1387,96,1413,80L1440,64L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
+  </section>
+</div>
+  </div>
+
+</body>
+<script>
+  const nav = document.querySelector('nav');
+window.addEventListener('scroll',()=>{
+  if (window.scrollY>=370.6666564941406){
+    nav.classList.add('scrolled');
+  }
+  else{
+    nav.classList.remove('scrolled');
+  }
+  console.log(scrollY);
+})
+</script>
+</html>
